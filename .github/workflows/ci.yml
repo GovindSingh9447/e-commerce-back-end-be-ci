@@ -46,7 +46,7 @@ jobs:
         run:  |
           cd gitops
           sed -Ei "/\-\ name\:\ sami203\/e\-commerce\-back\-end$/{n;s/\w+$/${{ github.sha }}/}" ./deployments/node-app/kustomization.yaml
-          git config --global user.email "samivivake@gmail.com"
+          git config --global user.email "govindkrsingh0605@gmail.com"
           git config --global user.name "gitops"
           git add .
           git commit -m "Deploying latest image"
