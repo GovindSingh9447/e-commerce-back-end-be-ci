@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v3
       
       - name: Login to Docker Hub
-        run: docker login -u ranawattech -p dckr_pat_VO6Nt1cIDrffmSq7ePVr2OJk0fw
+        run: docker login -u ranawat2tech -p dckr_pat_VO6Nt1cIDrffmSq7ePVr2O23Jk0fw
       
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
