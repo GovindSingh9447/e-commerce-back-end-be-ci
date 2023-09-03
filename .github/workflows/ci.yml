@@ -29,7 +29,7 @@ jobs:
           context: .
           file: ./dockerfile.back-end
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/e-commerce-back-end:${{ github.sha }}
+          tags: ranawattech/e-commerce-back-end:${{ github.sha }}
 
       - name: The current paths
         run:
